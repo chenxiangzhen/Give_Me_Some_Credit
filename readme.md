@@ -1,14 +1,10 @@
-# Kaggel : Give Me Some Credit
-Improve on the state of the art in credit scoring by predicting the probability that somebody will experience financial distress in the next two years.
+# Kaggel比赛 : Give Me Some Credit
+通过预测在未来两年内某人将经历财务困境的可能性，改善信用评分的状态。
 
 ## Description
-Banks play a crucial role in market economies. They decide who can get finance and on what terms and can make or break investment decisions. For markets and society to function, individuals and companies need access to credit.
-
-Credit scoring algorithms, which make a guess at the probability of default, are the method banks use to determine whether or not a loan should be granted. This competition requires participants to improve on the state of the art in credit scoring, by predicting the probability that somebody will experience financial distress in the next two years.
-
-The goal of this competition is to build a model that borrowers can use to help make the best financial decisions.
-
-Historical data are provided on 250,000 borrowers and the prize pool is $5,000 ($3,000 for first, $1,500 for second and $500 for third).
+银行在市场经济中扮演着至关重要的角色。他们决定谁可以获得融资，以及什么条件，可以做出或破坏投资决策。为了让市场和社会发挥作用，个人和企业需要获得信贷。
+信用评分算法，对违约概率进行猜测，是银行用来决定是否应该发放贷款的方法。这一竞赛要求参与者通过预测未来两年某人将经历财务困境的可能性，来改善信用评分的状态。
+这种竞争的目标是建立一个模型，让借款人可以用来帮助做出最好的财务决策。
 
 ## Evaluation
 AUC
