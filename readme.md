@@ -49,7 +49,7 @@ data = pd.read_csv('cs-training.csv')
 #数据集确实和分布情况
 data.describe().to_csv('DataDescribe.csv')
 ```
-![myplot](https://github.com/chenxiangzhen/Give_Me_Some_Credit/blob/master/myplot.png)
+![myplot](https://github.com/chenxiangzhen/Give_Me_Some_Credit/blob/master/datadescription.png)
 
 从上图可知，变量MonthlyIncome和NumberOfDependents存在缺失，变量MonthlyIncome共有缺失值29731个，NumberOfDependents有3924个缺失值。
 
