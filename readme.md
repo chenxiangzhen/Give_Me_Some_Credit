@@ -28,3 +28,6 @@ Columns
 - NumberRealEstateLoansOrLines
 - NumberOfTime60-89DaysPastDueNotWorse
 - NumberOfDependents
+
+
+![myplot](https://github.com/chenxiangzhen/Give_Me_Some_Credit/blob/master/myplot.png)
