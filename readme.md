@@ -1,4 +1,4 @@
-# Kaggel比赛 : Give Me Some Credit
+# Kaggel比赛 : [Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit)
 通过预测在未来两年内某人将经历财务困境的可能性，改善信用评分的状态。
 
 ## Description
