@@ -3,7 +3,6 @@ import numpy as np
 from pandas import Series,DataFrame
 import scipy.stats.stats as stats
 import matplotlib.pyplot as plt
-import statsmodels.api as sm
 import math
 
 
