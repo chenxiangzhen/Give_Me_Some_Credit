@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib.pyplot as plt #导入图像库
+import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 
 # 用随机森林对缺失值预测填充函数
@@ -26,7 +26,6 @@ def set_missing(df):
 if __name__ == '__main__':
     # 载入数据
     data = pd.read_csv('cs-training.csv')
-
     # 数据集缺失和分布情况
     data.describe().to_csv('DataDescribe.csv')
     # 用随机森林填补比较多的缺失值

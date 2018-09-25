@@ -16,6 +16,7 @@ if __name__ == '__main__':
     logit = sm.Logit(Y, X1)
     result = logit.fit()
     print(result.params)
+    print(result.summary())
 
     test = pd.read_csv('TestWoeData.csv')
     Y_test = test['SeriousDlqin2yrs']
