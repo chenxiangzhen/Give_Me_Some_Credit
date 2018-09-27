@@ -14,6 +14,7 @@ def mono_bin(Y, X, n=20):
     while np.abs(r) < 1:
         d1 = pd.DataFrame({"X": X, "Y": Y, "Bucket": pd.qcut(X, n)})
         d2 = d1.groupby('Bucket', as_index=True)
+        # spearman秩相关系数是度量两个变量之间的统计相关性的指标
         r, p = stats.spearmanr(d2.mean().X, d2.mean().Y)
         n = n - 1
     d3 = pd.DataFrame(d2.X.min(), columns=['min'])

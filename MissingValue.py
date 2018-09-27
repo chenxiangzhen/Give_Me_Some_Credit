@@ -38,11 +38,11 @@ if __name__ == '__main__':
     data.describe().to_csv('MissingDataDescribe.csv')
 
     # 箱形图
-    # data379 = data[['NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTimes90DaysLate', 'NumberOfTime60-89DaysPastDueNotWorse']]
-    # data379.boxplot()
-    # data = data[data['NumberOfTime30-59DaysPastDueNotWorse'] < 90]
-    # data379 = data[['NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTimes90DaysLate', 'NumberOfTime60-89DaysPastDueNotWorse']]
-    # data379.boxplot()
-    # plt.show()
+    data379 = data[['NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTimes90DaysLate', 'NumberOfTime60-89DaysPastDueNotWorse']]
+    data379.boxplot()
+    data = data[data['NumberOfTime30-59DaysPastDueNotWorse'] < 90]
+    data379 = data[['NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTimes90DaysLate', 'NumberOfTime60-89DaysPastDueNotWorse']]
+    data379.boxplot()
+    plt.show()
 
     # data.to_csv('PretreatmentData.csv')
